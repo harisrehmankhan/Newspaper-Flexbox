@@ -1,0 +1,101 @@
+.brand{
+    font-size: 60px;
+    /* color: red; */
+    text-align: center;
+    
+    font-family: 'Great Vibes', cursive , Arial, Helvetica, sans-serif;
+    font-style: normal;
+
+}
+
+img{
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    font-style: italic;
+}
+
+.flex{
+    display: flex;
+    border: 1px solid black;
+    
+    align-items:stretch;
+}
+
+.left{
+width: 25%;
+border: 1px solid black;
+padding: 5px;
+}
+
+.center{
+    width: 50%;
+    border: 1px solid black;
+    padding: 5px;
+
+
+}
+
+.right{
+width: 25%;
+border: 1px solid black;
+padding: 5px;
+    
+}
+
+.flex2{
+    display: flex;
+    align-items: stretch;
+    border: 1px solid black;
+}
+
+.left2{
+    width: 25%;
+    border: 1px solid black;
+    padding: 5px;
+
+}
+
+.right2{
+    width: 75%;
+
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+ margin: 0;
+ padding: 0;
+
+}
+
+li{
+     
+ display: flex;
+ align-items: center;
+ padding-left: 20px;
+ font-size: 30px;
+    flex:1;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+text-decoration: underline;
+}
+
+li:nth-child(odd){
+    background-color: aqua;
+}
+
+li:nth-child(even){
+    background-color:royalblue;
+}
+
